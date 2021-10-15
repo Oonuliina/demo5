@@ -1,3 +1,8 @@
+.reunukset {
+    border-style:solid;
+    border-color: white;
+}
+
 body {
     background-color: black;
     width: 90%;
@@ -5,32 +10,36 @@ body {
     margin-right: auto;
 }
 
-nav {
-    background-color:  #006847; color: white;
-    width: fit-content;
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color:white;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+#otsikko {
+    font-size: xx-large;
+    background-color:#ce1126;
+    text-align: center;
+}
+
+#linkit {
+    float: left;
+    width: 20%;
+    color: white;
+    padding: 10px;    
+}
+
+#tietoa {
+    float: right;
+    width: 80%;
+    background-color: #006847;
     padding: 10px;
 }
 
-article {
-    background-color: #ce1126; color: white;
-    width: fit-content;
-    padding: 10px;
-}
-
-section {
-    background-color: #006847; color: white;
-    width: fit-content;
-    padding: 10px;
-}
-
-aside {
-    background-color: #ce1126; color: white;
-    width: fit-content;
-    padding: 10px;
-}
-
-footer {
-    background-color: #006847; color: white;
-    width: fit-content;
-    padding: 10px;
-}
